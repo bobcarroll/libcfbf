@@ -1,4 +1,4 @@
-# This file is part of the libcfbf distribution (https://github.com/rcarz/libcfbf).
+# This file is part of the libcfbf distribution (https://git.rcarz.net/bobc/libcfbf).
 # Copyright (c) 2020 Bob Carroll (bob.carroll@alum.rit.edu)
 #
 # This program is free software: you can redistribute it and/or modify

@@ -1,10 +1,15 @@
 
 from setuptools import setup
 
+with open('README.md', 'r') as f:
+    long_description = f.read()
+
 setup(name='libcfbf',
-      version='0.2',
+      version='0.3',
       description="An implementation of Microsoft's Compound File Binary Format",
-      url='https://github.com/rcarz/libcfbf',
+      long_description=long_description,
+      long_description_content_type='text/markdown',
+      url='https://git.rcarz.net/bobc/libcfbf',
       author='Bob Carroll',
       author_email='bob.carroll@alum.rit.edu',
       py_modules=['libcfbf'],
